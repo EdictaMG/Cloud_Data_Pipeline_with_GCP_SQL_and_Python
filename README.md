@@ -32,7 +32,7 @@ In addition to what I shared in the article, designing efficient connections bet
 
 ### Files
 #### Scripts
-**Functions:**
+##### Functions:
 - `get_connection_string.py`: Connect to your MySQL local instance.
 - `get_connection_string_GCP.py`: Connect to your MySQL Cloud SQL instance.
 - `gans_data_pipeline_sql.py`: Main script to collect and send data to your SQL database (city, country, coordinates, population, weather, airports, flights). 
@@ -46,12 +46,12 @@ In addition to what I shared in the article, designing efficient connections bet
 - `convert_tude.py`: Converts coordinates to decimal format.
 - `extract_year.py`: Pulls year from timestamp.
 
-**Notebooks:**
+##### Notebooks:
 - `Gans_data_pipeline_sql.ipynb`: Local version of main data pipeline.
 - `Gans_data_pipeline_sql_GCP.ipynb`: Cloud version of the pipeline.
 - `get_weather_data_GCP.ipynb`, `get_population_data_GCP.ipynb`, `get_flights_data_GCP.ipynb`: GCP-ready codes for cloud functions.
 
-**SQL Queries:**
+##### SQL Queries:
 - `Gans_data_pipeline_tables.sql`: Creates tables for the local MySQL instance.
 - `Gans_data_pipeline_GCP.sql`: Creates tables in the MySQL Cloud SQL instance.
 
