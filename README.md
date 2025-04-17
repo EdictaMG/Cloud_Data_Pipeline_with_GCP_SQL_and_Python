@@ -1,4 +1,4 @@
-# Creation of a Cloud Data Pipeline using GCP, SQL and Python
+# Creation of an automated Cloud Data Pipeline using GCP, SQL and Python
 
 Imagine having round-the-clock access to fresh, up-to-date information on a topic you care about—automatically collected, stored in the cloud, and available to anyone you choose. That’s exactly what this project does.
 
