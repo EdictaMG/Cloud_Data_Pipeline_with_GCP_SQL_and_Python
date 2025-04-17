@@ -18,11 +18,15 @@ The entire system is automated through the cloud, so once it’s set up, there�
 - Pulled weather forecasts and flight data using APIs.
 - Stored all data in a local MySQL database using Python scripts in Jupyter Notebooks.
 
+<img width="510" alt="Screenshot 2025-04-15 at 13 03 05" src="https://github.com/user-attachments/assets/3175322f-7214-415b-9905-c464e244d88d" />
+
 #### Phase 2: Cloud Automation
 - Migrated the pipeline to GCP.
 - Scheduled scripts to run automatically using GCP Cloud Functions and Cloud Scheduler.
 - Data is saved to a MySQL cloud database (Cloud SQL).
 - No need to manage servers—the pipeline runs automatically.
+<img width="505" alt="Screenshot 2025-04-15 at 13 02 21" src="https://github.com/user-attachments/assets/fe9c8121-9fa9-4462-9b68-93efa66fa4ae" />
+
 
 ### Learnings
 I documented my learning journey in this Medium article:
